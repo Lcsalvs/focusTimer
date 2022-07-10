@@ -36,7 +36,7 @@ export default function Timer() {
         --minutes;
       }
 
-      updateDisplay(minutes, String(seconds - 30));
+      updateDisplay(minutes, String(seconds - 1));
 
       countdown();
     }, 1000);
